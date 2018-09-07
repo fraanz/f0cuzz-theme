@@ -1,0 +1,39 @@
+# Wrote by fraanz in A.D. 2018
+# Refer to GNU GPL v. 2 for the license of this file 
+# Contact me at: fr4nz@protonmail.ch
+# Thanks to Daniel Tschudi for its GRUB2 default theme
+
+message-color: "#000000"
+message-bg-color: "#FFFFFF"
+desktop-color: "#000000"
+
++ boot_menu { 
+	item_color = "#FFFFFF"
+	selected_item_color = "#00FFFF" 
+
+	left = 3%
+	width = 94%
+	top = 5%
+	height = 75%	
+	
+	item_height = 26
+	item_padding = 0
+	item_spacing = 1
+
+	scrollbar = true
+	scrollbar_width = 20
+}
+
++ progress_bar {
+	id = "__timeout__"
+	left = 15%
+	top = 85%
+	height = 20
+	width = 70%
+	text_color = "#FFFFFF"
+	fg_color = "#00FFFF"
+	bg_color = "#000000"
+	border_color = "#000000"
+	text = "@TIMEOUT_NOTIFICATION_SHORT@"
+}
+
