@@ -42,5 +42,5 @@ make a pull request or write me an email if you have any suggestions!
 
 ## Contacts
 
- * [Mail](fr4nz@protonmail.ch) 
+ * fr4nz@protonmail.ch
  * [GitHub](https://github.com/fraanz)
